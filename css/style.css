@@ -1,0 +1,868 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+
+/* header */
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/cos.jpg') center / cover no-repeat fixed;
+}
+
+nav{
+    display: flex;
+    margin-top: 10px;
+}
+
+.nav_icon img{
+    width: 150px;
+}
+
+.nav_text h1{
+    color: white;
+    margin: 0px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.nav_text p{
+    color: white;
+    margin: 0px;
+}
+
+/* nav_main */
+
+.header_main{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.header_main h1{
+    color: rgb(223, 223, 6);
+    font-size: 55px;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.header_main p{
+    color: white;
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+.header_main button{
+    width: 15px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background: purple;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.header_main button:hover{
+    width: 120px;
+    transition: 1s;
+}
+
+/* main */
+
+.tower{
+    width: 95%;
+    height: 300px;
+    background: url('../img/tower.jpg') center / cover;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* about */
+
+.about{
+    display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.about div{
+    margin: 0 15px;
+    width: 380px;
+    height: 330px;
+}
+
+.about_inner1{
+    background: url('../img/1.jpg') center / cover no-repeat;
+    padding-top: 150px;
+    position: relative;
+}
+
+.about div .about_inside{
+    display: none;
+}
+
+.about_inner1:hover .about_inside{
+    display: block;
+}
+
+.about_inner2:hover .about_inside{
+    display: block;
+}
+
+.about_inner3:hover .about_inside{
+    display: block;
+}
+
+.about_inner2{
+    background: url('../img/2.jpg') center / cover no-repeat;
+    padding-top: 150px;
+    position: relative;
+}
+
+.about_inner3{
+    background: url('../img/3.png') center / cover no-repeat;
+    padding-top: 150px;
+    position: relative;
+}
+
+.main_link{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 17px;
+    font-size: 33px;
+    top: 370px;
+    position: absolute;
+}
+
+.about_inner1:hover .main_link{
+    top: 100px;
+}
+
+.about div p{
+    color: white;
+    margin-right: 5px;
+    font-weight: 400;
+    width: 360px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.about_inner1 div .down{
+    color: purple;
+    text-decoration: none;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.about_inner1 div .down:hover{
+    background-color: purple;
+    border: 2px solid white;
+    color: white;
+    transition: .5s;
+}
+
+.about_inner1 div .top a{
+    color: purple;
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.about_inner1 div .top a:hover{
+    color: white;
+    transition: .5s;
+}
+
+.about div .top{
+    margin-top: 40px;
+}
+
+.about_inner2 div .down{
+    color: purple;
+    text-decoration: none;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.about_inner2 div .down:hover{
+    background-color: purple;
+    border: 2px solid white;
+    color: white;
+    transition: .5s;
+}
+
+.about_inner2 div .top a{
+    color: purple;
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.about_inner2 div .top a:hover{
+    color: white;
+    transition: .5s;
+}
+
+.about_inner2:hover .main_link{
+    top: 100px;
+}
+
+.about_inner3 div .down{
+    color: purple;
+    text-decoration: none;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.about_inner3 div .down:hover{
+    background-color: purple;
+    border: 2px solid white;
+    color: white;
+    transition: .5s;
+}
+
+.about_inner3 div .top a{
+    color: purple;
+    text-decoration: none;
+    padding: 5px;
+    border: none;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.about_inner3 div .top a:hover{
+    color: white;
+    transition: .5s;
+}
+
+.about_inner3:hover .main_link{
+    top: 100px;
+}
+
+/* solar */
+
+.solar{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.solar div h1{
+    color: rgb(105, 104, 104);
+    font-size: 40px;
+}
+
+/* blocks */
+
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.blocks div{
+    margin: 0 20px;
+    width: 260px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.blocks div:hover{
+    opacity: .8;
+}
+
+.blocks .blocks_inner1{
+    background: url('../img/4.jpg') center / cover;
+}
+
+.blocks .blocks_inner2{
+    background: url('../img/5.jpg') center / cover;
+}
+
+/* vid */
+
+.vid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.vid div{
+    width: 42%;
+    height: 86vh;
+    margin:0 20px
+}
+
+.vid_left h1{
+    font-size: 30px;
+}
+
+.vid_left p{
+    line-height: 1.3;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    margin-top: 150px;
+    padding:50px 0px;
+    background: url('../img/foot.jpg') center / cover;
+}
+
+/* stay */
+
+.stay{
+    display: flex;
+
+    justify-content: center;
+}
+
+.stay div{
+    text-align: center;
+}
+
+.stay div h1{
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.stay div a{
+    color: white;
+    font-size: 30px;
+}
+
+.stay div a:hover{
+    color: rgb(0, 153, 255);
+}
+
+/* palka */
+
+.palka{
+    display: flex;
+    margin-top: 30px;
+
+    justify-content: center;
+}
+
+.palka div{
+    width: 70%;
+    height: 1px;
+    background-color: grey;
+}
+
+/* end */
+
+.end{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.end div a{
+    color: rgb(216, 214, 214);
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.end div a:hover{
+    color: white;
+}
+
+/* Адаптация */
+
+@media screen and (max-width:1230px){
+
+    .vid_left p{
+        line-height: 1.3;
+        font-size: 15px;
+    }
+    
+    .about div{
+        margin: 20px;
+        width: 500px;
+        height: 330px;
+    }
+}
+
+@media screen and (max-width:1200px){
+
+    .blocks div{
+        margin: 20px;
+        width: 500px;
+        height: 250px;
+        cursor: pointer;
+    }
+
+    .vid div{
+        width: 42%;
+        height: 100vh;
+        margin:0 20px;
+    }
+
+    .vid_left h1{
+        font-size: 27px;
+        margin: 0px;
+    }
+    
+    .vid_left p{
+        line-height: 1.3;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1116px){
+
+    .vid div{
+        width:80%;
+        height: 60vh;
+        margin:10px;
+        text-align: center;
+    }
+
+    .vid .vid_right{
+        height: 130vh;
+    }
+
+    .vid div video{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1080px){
+
+    .blocks div{
+        margin: 20px;
+        width: 700px;
+        height: 250px;
+        cursor: pointer;
+    }
+
+    .about div{
+        margin: 20px;
+        width: 700px;
+        height: 330px;
+    }
+}
+
+@media screen and (max-width:962px){
+
+
+    .vid .vid_left{
+        height: 70vh;
+        padding: 0 30px;
+    }
+
+    .vid .vid_right{
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width:828px){
+
+    .vid .vid_left{
+        height: 80vh;
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width:800px){
+
+    .blocks div{
+        margin: 20px;
+        width: 600px;
+        height: 250px;
+        cursor: pointer;
+    }
+
+    .about div{
+        margin: 20px;
+        width: 600px;
+        height: 330px;
+    }
+
+    .vid div{
+        margin: 0px;
+    }
+
+    footer{
+        width: 100%;
+        margin-top: 100px;
+        padding:50px 0px;
+        background: url('../img/foot.jpg') center / cover;
+    }
+}
+
+@media screen and (max-width:744px){
+
+    .vid .vid_left{
+        width: 80%;
+        height: 90vh;
+        padding: 0 30px;
+    }
+
+    .about div{
+        margin: 20px;
+        width: 600px;
+        height: 300px;
+    }
+
+    .vid div{
+        width:100%;
+    }
+
+    footer{
+        width: 100%;
+        margin-top: 100px;
+        padding:50px 0px;
+        background: url('../img/foot.jpg') center / cover;
+    }
+}
+
+
+@media screen and (max-width:644px){
+
+    .header_main{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .about div{
+        margin: 20px;
+        width: 500px;
+        height: 300px;
+    }
+
+    .blocks div{
+        margin: 20px;
+        width: 500px;
+        height: 250px;
+        cursor: pointer;
+    }
+
+     .vid .vid_left{
+        width: 100%;
+        height: 80vh;
+        padding: 0px;
+    }
+
+    footer{
+        width: 100%;
+        margin-top: 50px;
+        padding:50px 0px;
+        background: url('../img/foot.jpg') center / cover;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .vid .vid_left{
+        width: 100%;
+        height: 85vh;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:550px){
+
+    .vid .vid_left{
+        width: 100%;
+        height: 90vh;
+        padding: 0px;
+    }
+    
+    footer{
+        width: 100%;
+        margin-top: 0px;
+        padding:50px 0px;
+        background: url('../img/foot.jpg') center / cover;
+    }
+
+    .blocks div{
+        margin: 20px;
+        width: 400px;
+        height: 280px;
+        cursor: pointer;
+    }
+    
+    .about_inner2{
+        background: url('../img/2.jpg') center / cover no-repeat;
+        padding-top: 100px;
+        position: relative;
+    }
+    
+    .about_inner3{
+        background: url('../img/3.png') center / cover no-repeat;
+        padding-top: 100px;
+        position: relative;
+    }
+
+    .about_inner1{
+        background: url('../img/1.jpg') center / cover no-repeat;
+        padding-top: 100px;
+        position: relative;
+    }
+
+    .main_link{
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 17px;
+        font-size: 33px;
+        top: 300px;
+        position: absolute;
+    }
+    
+    .about_inner1:hover .main_link{
+        top: 60px;
+    }
+
+    .about_inner2:hover .main_link{
+        top: 60px;
+    }
+
+    .about_inner3:hover .main_link{
+        top: 60px;
+    }
+    
+    .about div{
+        margin: 20px;
+        width: 400px;
+        height: 300px;
+    }
+    
+    .vid .vid_right{
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:518px){
+
+    .vid .vid_left{
+        width: 100%;
+        height: 100vh;
+        padding: 0px;
+    }
+
+    .vid .vid_right{
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width:456px){
+
+    .vid .vid_left{
+        width: 100%;
+        height: 110vh;
+        padding: 0px;
+    }
+
+    .vid .vid_right{
+        height: 80vh;
+    }
+
+    .about div{
+        margin: 20px;
+        width: 350px;
+        height: 300px;
+    }
+
+    .blocks div{
+        margin: 20px;
+        width: 350px;
+        height: 280px;
+        cursor: pointer;
+    }
+
+    .header_main h1{
+        color: rgb(223, 223, 6);
+        font-size: 45px;
+        letter-spacing: 1px;
+        margin: 0px;
+    }
+    
+    .header_main p{
+        color: white;
+        line-height: 1.5;
+        font-size: 15px;
+    }
+
+    .tower{
+        width: 95%;
+        height: 250px;
+        background: url('../img/tower.jpg') center / cover;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width:422px){
+
+    .about div{
+        margin: 20px;
+        width: 100%;
+        height: 280px;
+    }
+
+    .about div p{
+        color: white;
+        margin-right: 5px;
+        font-weight: 400;
+        width: 250px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    
+    .main_link{
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 15px;
+        font-size: 25px;
+        top: 260px;
+        position: absolute;
+    }
+
+    .about_inner1:hover .main_link{
+        top: 20px;
+    }
+
+    .about_inner2:hover .main_link{
+        top: 20px;
+    }
+
+    .about_inner3:hover .main_link{
+        top: 20px;
+    }
+
+    .about_inner2{
+        background: url('../img/2.jpg') center / cover no-repeat;
+        padding-top: 50px;
+        position: relative;
+    }
+    
+    .about_inner3{
+        background: url('../img/3.png') center / cover no-repeat;
+        padding-top: 50px;
+        position: relative;
+    }
+
+    .about_inner1{
+        background: url('../img/1.jpg') center / cover no-repeat;
+        padding-top: 50px;
+        position: relative;
+    }
+
+    .solar div h1{
+        color: rgb(105, 104, 104);
+        font-size: 30px;
+    }
+
+    .vid .vid_left{
+        width: 100%;
+        height: 120vh;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:404px){
+
+    .end div{
+
+        text-align: center;
+    }
+    
+    .end div a{
+        color: rgb(216, 214, 214);
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 20px;
+    }
+
+    .blocks div{
+        margin: 20px;
+        width: 100%;
+        height: 250px;
+        cursor: pointer;
+    }
+
+    .vid .vid_left{
+        width: 100%;
+        height: 130vh;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:376px){
+
+    .header_main h1{
+        color: rgb(223, 223, 6);
+        font-size: 40px;
+        letter-spacing: 1px;
+        margin: 0px;
+    }
+    
+    .header_main p{
+        color: white;
+        line-height: 1.5;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:340px){
+
+    
+    .end div a{
+        color: rgb(216, 214, 214);
+        text-decoration: none;
+        margin: 0 30px;
+        font-size: 20px;
+    }
+
+    .vid .vid_left{
+        width: 100%;
+        height: 140vh;
+        padding: 0px;
+    }
+
+    .vid .vid_right{
+        height: 70vh;
+    }
+
+}
